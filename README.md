@@ -309,7 +309,7 @@ Virtual Mobile Number: 1000123456789
 
 ## Implementation and Reference Designs
 
-### MVP and Reference Implementation
+### MVP and Reference Implementation (in the works)
 
 - **Verification Service**: A Node.js server that:
   - Sends an OTP to verify a phone number.  
@@ -319,12 +319,6 @@ Virtual Mobile Number: 1000123456789
 - **DID Resolver**: A simple resolver tool can fetch the DID Document from the appropriate method.
 
 - **Credential Verification**: A CLI or web tool demonstrates how third parties verify the VC and trust the virtual number.
----
-
-## Conclusion
-
-NumSigns offers a forward-looking approach to identity verification and management. By building on the global trust network of phone numbers and introducing privacy-preserving cryptographic frameworks, it lets users and services interact in safer, more efficient ways. The protocol reduces dependency on repeated phone verification, streamlines onboarding, preserves privacy, and opens new doors for messaging, payments, and beyond—all anchored in a decentralized, user-centric identity layer.
-
 ---
 ## References
 - W3C DID Core: [https://www.w3.org/TR/did-core/](https://www.w3.org/TR/did-core/)
